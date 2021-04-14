@@ -1,0 +1,353 @@
+.container-fluid {
+    background-image: url(../img/bGround.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.containerHeader {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.containerHeader ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.containerHeader li {
+    margin: 0 20px;
+    font-size: 1.3em
+}
+
+.containerHeader .btn {
+    border-radius: 100px;
+    color: white;
+}
+
+.containerHeader h1 {
+    font-size: 5em
+}
+
+.containerHeader .fStyle {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5em
+}
+
+.containerHeader .sTitle {
+    font-size: 1.3em
+}
+
+.bCard {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-color: #eee;
+}
+
+.card-deck {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.bCard .card {
+    background-color: #eee;
+    border: none;
+}
+
+.bCard .material-icons {
+    font-size: 48px;
+    color: #28a745;
+}
+
+.cCardBack {
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.cCard {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.cCardDeck {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cCardDeck .card {
+    margin: 0 50px;
+    border: none;
+}
+
+.cCardDeck .card a{
+    border-radius: 100px;
+}
+
+
+.dCard {
+    height: 400px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+}
+
+.dCardDeck {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.dCard .card-body {
+    background-color: #eee;
+}
+
+.dCard .card {
+    border: none;
+}
+
+.dCard .card a {
+    border-radius: 100px;
+}
+
+.dCard .card .card-title {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.eCard {
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.eCardDeck {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.eCard a {
+    color: #28a745;
+}
+
+.eCard .card {
+    border: none;
+}
+
+.fCard {
+    height: 400px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+}
+
+.fCardDeck {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.fCard .card {
+    width: 400px;
+    margin: 0 50px;
+}
+
+.fCard .card a{
+    border-radius: 100px;
+}
+
+.fCard .card {
+    border: none;
+    background-color: #eee;
+}
+
+.fCard .card-title {
+    display: inline;
+    margin-left: 10px;
+}
+
+.gCard {
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.gCardDeck {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.gCard .CardImg {
+    width: 500px;
+    height: 333px;
+}
+
+.gCard .card-body {
+    width: 500px;
+}
+
+
+.gCard .card-body a {
+    border-radius: 100px;
+}
+
+.hCard {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    background-color: #28a745;
+}
+
+.hCardDeck {
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.hCard ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.hCard li {
+    list-style: none;
+    font-size: 3em;
+    font-family: monospace;
+}
+
+.hCard li:nth-child(1) {
+    font-family: 'Dancing Script', cursive;
+}
+
+.hCard li:nth-child(2) {
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+.hCard li:nth-child(3) {
+    font-family: 'Train One', cursive;
+}
+
+.hCard li:nth-child(4) {
+    font-family: 'sans-serif';
+}
+
+.hCard h4 {
+    display: inline;
+    margin-left: 10px;
+}
+
+.footer {
+    width: 1100px;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerUl ul {
+    display: flex;
+}
+
+.footerUl li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+@media (max-width: 576px) {
+
+    .container-fluid {
+    height: 500px;
+    }
+
+    .containerHeader .fStyle {
+        font-size: 3em;
+    }
+
+    .containerHeader .navBar{
+        display: none;
+    }
+
+    .containerHeader .hTitle {
+        font-size: 3em;
+    }
+
+    .bCard {
+        height: 700px;
+    }
+
+    .cCardBack {
+        height: 1100px;
+    }
+
+    .cCardDeck {
+        display: block;
+    }
+
+    .cCardDeck .card {
+        margin: 0 0;
+    }
+
+    .dCard {
+        height: 500px;
+    }
+
+    .eCard {
+        height: 1900px;
+    }
+
+    .fCard {
+        height: 650px;
+    }
+
+    .fCardDeck {
+        display: block;
+    }
+
+    .fCard .card {
+        margin: 10px 0;
+    }
+
+    .gCard {
+        height: 750px;
+    }
+
+    .gCardDeck {
+        display: block;
+    }
+
+    .gCard .CardImg {
+        width: 400px;
+        height: 280px;
+    }
+
+    .gCard .card-body {
+        width: 400px;
+    }
+
+    .hCard {
+        height: 500px;
+    }
+
+    .hCard ul {
+        display: block;
+    }
+
+    .footer {
+        display: block;
+        width: 425px;
+        height: 50px;
+        text-align: center;
+    }
+
+    .footer ul {
+        display: none;
+    }
+}
